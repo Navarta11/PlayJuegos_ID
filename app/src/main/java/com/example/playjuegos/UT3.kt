@@ -2,6 +2,7 @@ package com.example.playjuegos
 
 import android.icu.text.CaseMap.Title
 import android.text.Selection
+import androidx.compose.animation.core.animateSizeAsState
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -96,7 +97,6 @@ fun Actividades3() {
                 text = "Opción 1",
                 Modifier.padding(top = 12.dp)
             )
-
             RadioButton(
                 selected = false, onClick = { /*TODO*/ }
             )
@@ -116,7 +116,4 @@ fun Actividades3() {
         }
 
     }
-
-
-
 }
